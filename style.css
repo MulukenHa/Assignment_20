@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+body {
+    background: rgb(236, 237, 0);
+    background: radial-gradient(circle, rgba(236, 237, 0, 1) 0%, rgba(88, 88, 38, 1) 73%);
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .nav-logo img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: white;
+}
+
+.nav .nav-logo img:hover {
+    background-color: #FFB200;
+}
+
+.nav .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.nav .nav-menu a {
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.nav .nav-menu a:hover {
+    background: #FFB200;
+    color: white;
+}
+
+.home {
+    width: 100%;
+    margin-top: 130px;
+    color: white;
+    display: flex;
+}
+
+.personal-info {
+    width: 70%;
+}
+
+.home-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+    background-color: #FFB200;
+}
+
+.home .home-name {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.home .home-profession {
+    margin-bottom: 20px;
+    color: #FFB200;
+}
+
+.home .home-bio {
+    width: 65%;
+    background: transparent;
+
+}
+
+.home .home-bio p {
+    font-family: "Sour Gummy", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.home .personal-info .home-name {
+    color: #FFB200;
+}
+
+.home .personal-info .home-name .prefixer {
+    color: white;
+}
+
+
+.actions {
+    width: 100px;
+    height: 30px;
+    background-color: #FFB200;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.actions a {
+    width: 100%;
+    text-align: center;
+    padding: 6px 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.actions:hover {
+    background: transparent;
+    border: 1px solid #FFB200;
+    color: white;
+}
+
+.actions a:hover {
+    color: white;
+}
+
+.social-media {
+    margin: 100px 0 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.social-media .social-media-link i {
+    font-size: 30px;
+}
+
+.social-media-link a i {
+    color: #ffffff;
+}
+
+.social-media-link a i:hover {
+    color: #FFB200;
+}
