@@ -11,10 +11,7 @@
 }
 
 body {
-    background: rgb(236, 237, 0);
-    background: radial-gradient(circle, rgba(236, 237, 0, 1) 0%, rgba(88, 88, 38, 1) 73%);
-    background-repeat: no-repeat;
-    object-fit: cover;
+    background: rgb(83, 83, 7);
 }
 
 .container {
@@ -69,7 +66,7 @@ body {
 
 .home {
     width: 100%;
-    margin-top: 130px;
+    margin-top: 125px;
     color: white;
     display: flex;
 }
