@@ -10,23 +10,35 @@
         "wdth" 100;
 }
 
+html {
+    scroll-padding-top: 80px; 
+    scroll-behavior: smooth; 
+}
+
 body {
-    background: rgb(83, 83, 7);
+    background: #62825D;
 }
 
 .container {
     width: 1100px;
     margin: 0 auto;
+    background: #62825D;
 }
 
 .nav {
-    margin-top: 20px;
+    width: 100%;
+    padding: 10px 65px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background: #526E48;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 .nav .nav-logo img {
+    margin-top: 9px;
     width: 35px;
     height: 35px;
     border-radius: 50%;
@@ -76,8 +88,8 @@ body {
 }
 
 .home-photo img {
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 170px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 15px;
@@ -147,11 +159,16 @@ body {
     color: white;
 }
 
+.about{
+    margin: 20px;
+}
+
 .social-media {
-    margin: 100px 0 30px;
+    margin: 75px 0 40px;
     display: flex;
     gap: 30px;
 }
+
 
 .social-media .social-media-link i {
     font-size: 30px;
@@ -163,4 +180,124 @@ body {
 
 .social-media-link a i:hover {
     color: #FFB200;
+}
+
+
+.container2{
+    margin-top: 40px;
+}
+
+.projects{
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.project{
+    background: transparent;
+    border-radius: 10px;
+    margin:10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.project img{
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.project .project-action{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin-top: 15px;
+    padding: 5px 5px;
+}
+
+.project a{
+    background-color:#FFB200;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.project .project-img .web{
+    width: 250px;
+    height: 200px;
+    z-index: -1;
+}
+
+.project .project-info .tech-used ul{
+    list-style: none;
+    display: flex;
+    gap:7px;
+}
+
+.container3{
+    margin: 40px auto;
+    width: 800px;
+    text-align: center;
+    color: white;
+}
+
+.skills .framwork{
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.skill .framwork .skill-icon{
+    font-size:35px;
+    margin: 5px;
+}
+
+.skill .framwork img{
+    width: 54px;
+    height: 54px;
+}
+
+.container4{
+        width: 1100px;
+        margin: 0 auto;
+    }
+    
+
+.footer{
+    background: #97b88b;
+}
+
+
+.footer-info{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+
+}
+
+.form .input{
+    height: 30px;
+    width: 200px;
+    border-color: none;
+    border-radius: 5px;
+}
+
+
+.form .input:focus{
+    outline: none;  
+}
+.form .input.submit:hover{
+    background: #FFB200;
+    color:black;
 }
